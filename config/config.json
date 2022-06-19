@@ -1,0 +1,87 @@
+{
+    "development": {
+        "username": "username",
+        "password": "password!!",
+        "database": "database",
+        "host": "host",
+        "dialect": "mysql",
+        "operatorAliases":false,
+        "timezone": "+09:00"
+    },
+    "test": {
+        "username": "username",
+        "password": "password!!",
+        "database": "database",
+        "host": "host",
+        "dialect": "mysql",
+        "operatorAliases":false,
+        "timezone": "+09:00"
+    },
+    "production": {
+        "username": "username",
+        "password": "password",
+        "database": "username",
+        "host": "host3",
+        "dialect": "mysql",
+        "operatorAliases":false,
+        "timezone": "+09:00"
+    },
+    "local" : {
+        "development": {
+            "username": "username",
+            "password": "password",
+            "database": "username",
+            "host": "host",
+            "dialect": "mysql",
+            "operatorAliases":false,
+            "timezone": "+09:00"
+        },
+        "test": {
+            "username": "username",
+            "password": "password",
+            "database": "username",
+            "host": "host",
+            "dialect": "mysql",
+            "operatorAliases":false,
+            "timezone": "+09:00"
+        },
+        "production": {
+            "username": "username",
+            "password": "password",
+            "database": "username",
+            "host": "host",
+            "dialect": "mysql",
+            "operatorAliases":false,
+            "timezone": "+09:00"
+        }
+    },
+    "real" : {
+        "development": {
+            "username": "username",
+            "password": "password",
+            "database": "username",
+            "host": "host3",
+            "dialect": "mysql",
+            "operatorAliases":false,
+            "timezone": "+09:00"
+        },
+        "test": {
+            "username": "username",
+            "password": "password",
+            "database": "username",
+            "host": "host3",
+            "dialect": "mysql",
+            "operatorAliases":false,
+            "timezone": "+09:00"
+        },
+        "production": {
+            "username": "username",
+            "password": "password",
+            "database": "username",
+            "host": "host3",
+            "dialect": "mysql",
+            "operatorAliases":false,
+            "timezone": "+09:00"
+        }
+    }
+}
